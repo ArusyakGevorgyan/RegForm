@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="regform.css">
+	<title>RegForm</title>
+</head>
+<body>
+	<section class="wrap">
+		<form>
+			<fieldset>
+				<legend>Step 1: Your details</legend>
+				<div>
+					<label for="name">Name</label>
+					<input id="name" type="text" name="name" placeholder="First and last name" required="">
+				</div>
+				<div>
+					<label for="email">Email</label>
+					<input id="email" type="email" name="email" placeholder="example@domain.com" required="">
+				</div>
+				<div>
+					<label for="phone">Phone</label>
+					<input id="phone" type="text" name="phone" placeholder="Eg. +447500000000" required="">
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Step 2: Delivery address</legend>
+				<div>
+					<label for="address">Address</label>
+					<textarea rows="5" cols="" id="address" required=""></textarea>
+				</div>
+				<div>
+					<label for="pcode">Post code</label>
+					<input id="pcode" type="text" name="pcode" required="">
+				</div>
+				<div>
+					<label for="country">Country</label>
+					<input id="country" type="text" name="country" required="">
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Step 3: Card details</legend>
+				<div>
+<label>Card Type</label>
+					<br>
+					<input src="visa.png" type="radio" name="ctype" required=""><img src="visa.png">Visa
+					<input type="radio" name="ctype" required=""><img src="AmEx.png">AmEx
+					<input type="radio" name="ctype" required=""><img src="Mastercard.png">Mastercard
+				</div>
+				<div>
+					<label for="cnumber">Card Namber</label>
+					<input id="cnumber" type="text" name="cnumber" required="">
+				</div>
+				<div>
+					<label for="scode">Security code</label>
+					<input id="scode" type="text" name="scode" required="">
+				</div>
+				<div>
+					<label for="ncard">Name on card</label>
+					<input id="ncard" type="text" name="ncard" required="" placeholder="Exact name as on the card">
+				</div>
+			</fieldset>
+			<div style="text-align:center">
+				<input id="submit" type="submit" name="" value="BUY IT!">
+			</div>
+		</form>
+	</section>
+</body>
+</html>

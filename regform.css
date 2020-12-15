@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrap{
+	width: 450px;
+	margin: 0 auto;
+	background-color: #B0C447;
+	padding: 20px;
+}
+
+fieldset > div{
+	padding: 10px;
+	background-color: #C8D583;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	width: 100%;
+	margin-top: 2px;
+	position: relative;
+}
+fieldset{
+	border: none;
+	    margin: 11px 0;
+}
+
+legend
+{
+	font-family: georgia;
+	text-align: left;
+	font-size: 1.3em;
+	font-weight: 900;  /*tareri hastutyun@*/
+	color: #5E672E; 
+	margin: 5px 0;  /*verevic u nerqevic*/
+}
+
+input:not([type="radio"]){
+	position: absolute;
+	right: 50px;
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	top: 6px;
+	width: 50%;
+}
+input::placeholder{
+	font-family: georgia;
+	font-style: italic;
+	color: grey;
+}
+
+textarea{
+	min-width: 53%;
+	margin-left: 86px;
+	border: none;
+	border-radius: 3px;
+	resize: none; /*textareayi chap@ chi linum poghel*/
+}
+
+#submit{
+	background-color: #4A521C;
+	border-radius: 20px;
+	outline: none;
+	width: 113px;
+	color: white;
+	position: static;
+	padding: 10px;
+}
+
+img{
+	width: 26px;
+	height: 16px;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+#address{
+	vertical-align: top;
+}
